@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onClick = "clickTracker(event)">
+    <h1>Tic Tac Toe</h1>
+    <p>Connect three in a row to win!</p>
+
+    <div id='tic-tac-toe-board'>
+      <table>
+        <tr>
+          <td id="_0.0">-</td>
+          <td id="_0.1">-</td>
+          <td id="_0.2">-</td>
+        </tr>
+        <tr>
+          <td id="_1.0">-</td>
+          <td id="_1.1">-</td>
+          <td id="_1.2">-</td>
+        </tr>
+        <tr>
+          <td id="_2.0">-</td>
+          <td id="_2.1">-</td>
+          <td id="_2.2">-</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3 id='playerTurn'>PLACEHOLDER TEXT</h3>
+    <button id='resetButton'>Previewing the HTML huh?</button>
+    <div id='hard-mode-toggle'>
+      <h2>Hard mode</h2>
+      <label class="switch">
+        <input type="checkbox" id="hardModeCheckbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
